@@ -1,0 +1,78 @@
+[ 2014-03-19T10:49:25+08:00 ] 192.168.1.100 /collegepy/index.php/Home/PostList/postlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.058475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.058772s ]
+SQL: SHOW COLUMNS FROM `activity_info` [ RunTime:0.824419s ]
+SQL: SELECT `id`,`title`,`time`,`location`,`userid`,`createtime` FROM `activity_info` ORDER BY createtime desc LIMIT 0,30   [ RunTime:0.156764s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.103090s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.051121s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.003312s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.003975s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.002595s ]
+NOTIC: [8] Trying to get property of non-object D:\Application\wamp\www\collegepy\Application\Home\Controller\PostListController.class.php 第 21 行.
+NOTIC: [8] Trying to get property of non-object D:\Application\wamp\www\collegepy\Application\Home\Controller\PostListController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `activity_info` [ RunTime:0.009953s ]
+SQL: SELECT `id`,`title`,`time`,`location`,`userid`,`createtime` FROM `activity_info` ORDER BY createtime desc LIMIT 0,30   [ RunTime:0.001277s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.004263s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001824s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.002177s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.039003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.039312s ]
+
+[ 2014-03-19T10:49:28+08:00 ] 192.168.1.100 /collegepy/index.php/Home/PostList/postlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `activity_info` [ RunTime:0.017264s ]
+SQL: SELECT `id`,`title`,`time`,`location`,`userid`,`createtime` FROM `activity_info` ORDER BY createtime desc LIMIT 0,30   [ RunTime:0.002091s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.004465s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.001879s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.002317s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.001992s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.002001s ]
+NOTIC: [8] Trying to get property of non-object D:\Application\wamp\www\collegepy\Application\Home\Controller\PostListController.class.php 第 21 行.
+NOTIC: [8] Trying to get property of non-object D:\Application\wamp\www\collegepy\Application\Home\Controller\PostListController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `activity_info` [ RunTime:0.004854s ]
+SQL: SELECT `id`,`title`,`time`,`location`,`userid`,`createtime` FROM `activity_info` ORDER BY createtime desc LIMIT 0,30   [ RunTime:0.002093s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.001918s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001930s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.001949s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2014-03-19T10:49:40+08:00 ] 192.168.1.100 /collegepy/index.php/Home/PostList/postlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `activity_info` [ RunTime:0.003404s ]
+SQL: SELECT `id`,`title`,`time`,`location`,`userid`,`createtime` FROM `activity_info` ORDER BY createtime desc LIMIT 0,30   [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.004162s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.001377s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001314s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.001237s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000809s ]
+NOTIC: [8] Trying to get property of non-object D:\Application\wamp\www\collegepy\Application\Home\Controller\PostListController.class.php 第 21 行.
+NOTIC: [8] Trying to get property of non-object D:\Application\wamp\www\collegepy\Application\Home\Controller\PostListController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `activity_info` [ RunTime:0.003736s ]
+SQL: SELECT `id`,`title`,`time`,`location`,`userid`,`createtime` FROM `activity_info` ORDER BY createtime desc LIMIT 0,30   [ RunTime:0.001295s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.001052s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000878s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000980s ]
+SQL: SELECT `id`,`nickname` FROM `user_info` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+

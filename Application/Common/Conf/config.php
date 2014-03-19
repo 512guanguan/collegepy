@@ -1,0 +1,13 @@
+<?php
+return array(
+	//'配置项'=>'配置值'
+	/* 数据库设置 */
+// 'DB_DSN' => 'mysql://username:password@localhost:3306/DbName'
+//              数据库类型://用户名:密码@数据库地址:数据库端口/数据库名
+	'DB_TYPE'=>'mysql', // 数据库类型
+	'DB_HOST'=>'localhost', // 服务器地址
+	'DB_NAME'=>'infoport',          // 数据库名
+	'DB_USER'=>'root',      // 用户名
+	'DB_PWD' =>'lailubo',          // 密码
+	'DB_PREFIX'=>'',    // 数据库表前缀
+);
